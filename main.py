@@ -1,3 +1,4 @@
-# change it to print your name
+class person_Rayan:
+     x=5
 
-print("Hello, I am Piotr Brudny")
+print(person_Rayan)     
