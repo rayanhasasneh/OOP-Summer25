@@ -1,9 +1,9 @@
 animals = [
     {
-        "name": "Dog",
-        "group": "Mammal",
-        "number_of_legs": 4,
-        "skills": ["running", "barking"]
+        "name": "Dog", #str
+        "group": "Mammal", #str
+        "number_of_legs": 4, #int
+        "skills": ["running", "barking"], #list
     },
     {
         "name": "Eagle",
