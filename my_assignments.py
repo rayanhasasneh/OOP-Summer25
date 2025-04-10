@@ -20,10 +20,8 @@ class Person:
     self.name = name
     self.age = age
 
-p1 = Person("John", 36)
-Persons = [p1, Person('tom', 23, Student('ali', 45)]
-print(p1.name)
-print(p1.age)
+Persons = [Person("John", 36), Person('tom', 23), Person('ali', 45)]
+print(Persons[1].age)
 
 # Using list comprehension, how can you extract from a list of fruits only those whose names contain the letter "a"?
 fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
